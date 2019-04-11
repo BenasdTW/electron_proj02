@@ -5,11 +5,11 @@ body {
 
 #title-bar {
     -webkit-app-region: drag;
-    height: 40px;
+    height: 30px;
     text-align: center;
     line-height: 40px;
     vertical-align: middle;
-    background-color: #03a9f4;
+    background-color: #333333;
     padding: none;
     margin: 0px;
 }
@@ -22,9 +22,20 @@ body {
 
 }
 
+#min-btn {
+    -webkit-app-region: no-drag;
+    position: fixed;
+    top: 14px;
+    right: 28px;
+    width: 12px;
+    cursor: pointer;
+}
+
 #close-btn {
     -webkit-app-region: no-drag;
     position: fixed;
-    top: 8px;
-    right: 6px;
+    top: 9px;
+    right: 7px;
+    width: 12px;
+    cursor: pointer;
 }
