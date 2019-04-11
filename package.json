@@ -10,9 +10,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "electron .",
-    "build_mac": "electron-packager . MyApp --platform=darwin --arch=x64 --ignore=node_modules/electron-* ",
-    "build_win": "electron-packager . MyApp --platform=win32 --arch=x64 --ignore=node_modules/electron-* ",
-    "build_linux": "electron-packager . MyApp --platform=linux --arch=x64 --ignore=node_modules/electron-* "
+    "build_mac": "electron-packager . MyApp --out output --overwrite --platform=darwin --arch=x64 --ignore=node_modules/electron-* ",
+    "build_win": "electron-packager . MyApp --out output --overwrite --platform=win32 --arch=x64 --ignore=node_modules/electron-* ",
+    "build_linux": "electron-packager . MyApp --out output --overwrite --platform=linux --arch=x64 --ignore=node_modules/electron-* "
   },
   "author": "",
   "license": "ISC"
