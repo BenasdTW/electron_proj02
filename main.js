@@ -4,12 +4,12 @@ let mainWindow;
 
 function createWindow () {
     mainWindow = new BrowserWindow({
-        width: 800,
-        height: 600,
+        width: 500,
+        height: 350,
         webPreferences: {
             nodeIntegration: true
         },
-        //frame: false
+        frame: false
     });
 
     // and load the index.html of the app.
