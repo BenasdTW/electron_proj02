@@ -1,0 +1,19 @@
+{
+  "name": "electron_proj02",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "build_mac": "electron-packager . MyApp --platform=darwin --arch=x64 --ignore=node_modules/electron-* ",
+    "build_win": "electron-packager . MyApp --platform=win32 --arch=x64 --ignore=node_modules/electron-* ",
+    "build_linux": "electron-packager . MyApp --platform=linux --arch=x64 --ignore=node_modules/electron-* "
+  },
+  "author": "",
+  "license": "ISC"
+}
