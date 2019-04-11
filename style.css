@@ -16,9 +16,10 @@ body {
 
 #title {
     position: fixed;
-    top: 0px;
-    left: 6px;
-    color:white;
+    top: -5px;
+    left: 12px;
+    color: #DAD085;
+    font-family: Inconsolata,Monaco,Consolas,'Courier New',Courier,monospace;
 }
 
 #min-btn {
