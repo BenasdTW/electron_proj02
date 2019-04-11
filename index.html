@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>Hello World!</title>
+        <meta charset="utf-8">
+        <title>My Electron Frameless Window</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>Hello World!</h1>
-        Yaaaaaaa!!
+        <div id="title-bar">
+            <div id="title">
+                Our Code World Frameless (But draggable,resizable and closable Window)
+            </div>
+            <button id="close-btn">x</button>
+        </div>
 
-        <script>
-            require('./renderer.js')
+        <script src="./renderer.js">
         </script>
     </body>
 </html>
