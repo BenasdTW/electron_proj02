@@ -2,6 +2,7 @@
 const {BrowserWindow} = require("electron").remote
 const $ = require("jquery");
 
+
 $(document).ready(function() {
     $("#min-btn").on("click", () => {
         BrowserWindow.getFocusedWindow().minimize();
