@@ -3,20 +3,41 @@ body {
     margin: 0px;
 }
 
+/* #container {
+    display: grid;
+    grid-template-rows: 30px auto;
+} */
+
 #title-bar {
     -webkit-app-region: drag;
-    height: 30px;
+    position: fixed;
+    top: 0;
+    /* right: 0; */
+    width: 550px;
+    height: 35px;
     text-align: center;
-    line-height: 40px;
-    vertical-align: middle;
+    line-height: 20px;
+    /* vertical-align: middle; */
     background-color: #333333;
-    padding: none;
+    /* padding: none; */
+    /* margin: 0px; */
+}
+
+#content {
+    position: relative;
+    top: 35px;
+    height: 315px;
+    /* padding: 320px; */
+    text-align: center;
+    /* line-height: 40px; */
+    /* vertical-align: middle; */
+    background-color: #252526;
     margin: 0px;
 }
 
 #title {
     position: fixed;
-    top: -5px;
+    top: 7px;
     left: 12px;
     color: #DAD085;
     font-family: Inconsolata,Monaco,Consolas,'Courier New',Courier,monospace;
@@ -24,9 +45,10 @@ body {
 
 #min-btn {
     -webkit-app-region: no-drag;
+    padding: 10px;
     position: fixed;
-    top: 14px;
-    right: 28px;
+    top: 7px;
+    right: 24px;
     width: 12px;
     cursor: pointer;
 }
@@ -34,7 +56,7 @@ body {
 #close-btn {
     -webkit-app-region: no-drag;
     position: fixed;
-    top: 9px;
+    top: 11px;
     right: 7px;
     width: 12px;
     cursor: pointer;
