@@ -33,6 +33,13 @@ p {
     padding: 12px;
 }
 
+p #that {
+    color: #9CDCFE;
+}
+p #sh {
+    color: #F88070;
+}
+
 #title {
     position: fixed;
     top: 6px;
